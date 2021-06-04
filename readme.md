@@ -11,4 +11,4 @@ Including,
 * batch test and output test result
 ...
 
-See [examples.ipynb](./examples.ipynb) for details.
+See [examples.ipynb](https://github.com/Gongzq5/leetcode-helper/blob/main/examples.ipynb) for details.

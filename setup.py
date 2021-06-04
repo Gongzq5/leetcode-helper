@@ -5,13 +5,13 @@ with open("readme.md", "r") as fh:
 
 setuptools.setup(
     name="leetcode-helper",
-    version="0.1",
+    version="0.1.2",
     author="Gongzq",
     author_email="gongzq5@gmail.com",
     description="Some utils for debug leetcode locally",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # url="https://github.com/pythonml/douyin_image",
+    url="https://github.com/Gongzq5/leetcode-helper/",
     packages=setuptools.find_packages(),
     install_requires=['prettytable', 'numpy', 'matplotlib', 'numpy', 'networkx'],
     classifiers=(

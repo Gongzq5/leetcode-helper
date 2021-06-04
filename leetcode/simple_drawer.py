@@ -9,7 +9,7 @@ import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
 def draw3d(func, inputs=None, input_range=None):
-    fig = plt.figure(1, 2)
+    fig = plt.figure()
     ax = Axes3D(fig)
     if input_range is None:
         input_range = ((-10, 10), (-10, 10))
