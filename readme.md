@@ -12,3 +12,5 @@ Including,
 ...
 
 See [examples.ipynb](https://github.com/Gongzq5/leetcode-helper/blob/main/examples.ipynb) for details.
+
+See [Pypi](https://pypi.org/project/leetcode-helper/) for installation.
