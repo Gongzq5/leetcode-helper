@@ -42,17 +42,17 @@ def fromArray(ls):
     i = 1
     while i < len(ls)-1:
         node = queue.popleft()
-        if ls[i]:
+        if ls[i] is not None:
             node.left = TreeNode(ls[i])
             queue.append(node.left)
-        if ls[i+1]:
+        if ls[i+1] is not None:
             node.right = TreeNode(ls[i+1])
             queue.append(node.right)
         i += 2
         
     if i == len(ls)-1:
         node = queue.popleft()
-        node.left = TreeNode(ls[i]) if ls[i] else None
+        node.left = None if ls[i] is None else TreeNode(ls[i])
     return root
 
 
